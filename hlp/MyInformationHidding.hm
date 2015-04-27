@@ -1,0 +1,23 @@
+ 
+// Commands (ID_* and IDM_*) 
+HIDM_ABOUTBOX                           0x10010
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_MYINFORMATIONHIDDING_DIALOG        0x20066
+HIDD_DIALOG_Page0                       0x20081
+HIDD_DIALOG_PAGE1                       0x20082
+HIDD_DIALOG_PAGE2                       0x20083
+HIDD_DIALOG_PAGE3                       0x20084
+HIDD_DIALOG_PAGE4                       0x20085
+HIDD_DIALOG_PAGE11                      0x20086
+HIDD_DIALOG_PAGE21                      0x20087
+HIDD_PROPPAGE_HFILE                     0x20088
+HIDD_PROPPAGE_HMESSAGE                  0x20089
+ 
+// Frame Controls (IDW_*) 

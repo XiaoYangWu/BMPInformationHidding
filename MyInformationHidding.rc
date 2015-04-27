@@ -1,0 +1,423 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MyInformationHidding.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MyInformationHidding.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 MyInformationHidding"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MyInformationHidding 1.0 版",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MYINFORMATIONHIDDING_DIALOG DIALOGEX 0, 0, 407, 289
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "MyInformationHidding"
+FONT 9, "宋体"
+BEGIN
+    CTEXT           "MyInformationHidding",IDC_STATIC1,51,7,236,20,
+                    SS_CENTERIMAGE
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",WS_BORDER,17,27,371,
+                    224
+END
+
+IDD_DIALOG_Page0 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,251,140,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_DIALOG_PAGE1 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Select the Encryption Technique",IDC_STATIC_PAGE1,61,17,
+                    104,8
+    CONTROL         "DES",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,60,35,40,14
+    CONTROL         "Triple DES",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,60,
+                    52,47,14
+    CONTROL         "RSA",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,60,71,29,13
+    CONTROL         "Default",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,60,87,
+                    37,16
+    PUSHBUTTON      "OK",IDC_BUTTON1,94,110,32,15
+END
+
+IDD_DIALOG_PAGE2 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    LTEXT           "Select the Encryption Technique",IDC_STATIC_PAGE3,59,15,
+                    105,8
+    CONTROL         "DES",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,59,34,36,9
+    CONTROL         "Triple DES",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,59,
+                    49,48,12
+    CONTROL         "RSA",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,59,68,32,8
+    CONTROL         "Default",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,59,84,
+                    36,9
+    PUSHBUTTON      "OK",IDC_BUTTON2,114,105,26,16
+END
+
+IDD_DIALOG_PAGE3 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_10,7,7,251,140,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_DIALOG_PAGE4 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT11,7,7,251,140,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_DIALOG_PAGE11 DIALOGEX 0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "Cover File",IDC_STATIC,14,48,233,28,0,WS_EX_TRANSPARENT
+    GROUPBOX        "Destination Path",IDC_STATIC,13,78,233,31
+    LTEXT           "Enter Password",IDC_STATIC,18,117,51,8
+    EDITTEXT        IDC_EDIT_PASSWD,149,114,95,15,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Back",IDC_BUTTON_Back1,18,135,39,12
+    PUSHBUTTON      "Hide",IDC_BUTTON_HIDE,149,135,40,12
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR1,204,134,41,13
+    EDITTEXT        IDC_EDIT2,21,60,167,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON_BROWSE1,206,59,33,11
+    EDITTEXT        IDC_EDIT3,21,90,167,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON_BROWSE2,206,90,32,11
+    CONTROL         "Tab2",IDC_TAB50,"SysTabControl32",TCS_OWNERDRAWFIXED,12,
+                    4,234,42
+    EDITTEXT        IDC_EDIT200,14,21,228,19,ES_MULTILINE
+    EDITTEXT        IDC_EDIT201,21,24,167,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON201,206,26,32,11
+END
+
+IDD_DIALOG_PAGE21 DIALOG DISCARDABLE  0, 0, 265, 154
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    GROUPBOX        "Cover File",IDC_STATIC,19,15,225,32,BS_LEFT
+    GROUPBOX        "Destination Path",IDC_STATIC,20,51,224,31
+    EDITTEXT        IDC_EDIT4,29,26,152,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON_BROWSE3,193,26,38,12
+    EDITTEXT        IDC_EDIT5,28,63,153,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON_BROWSE4,194,62,40,11
+    LTEXT           "Enter Password",IDC_STATIC,24,97,52,8
+    EDITTEXT        IDC_EDIT_PASSWD2,143,94,100,13,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    PUSHBUTTON      "Back",IDC_BUTTON_BACK2,23,125,46,13
+    PUSHBUTTON      "Unhide",IDC_BUTTON_UNHIDE,138,123,48,16
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR2,196,123,48,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MyInformationHidding Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MyInformationHidding\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MyInformationHidding.EXE\0"
+            VALUE "ProductName", "MyInformationHidding 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MYINFORMATIONHIDDING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_DIALOG_Page0, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE11, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 256
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG_PAGE21, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MyInformationHidding(&A)..."
+    IDS_PAGE0               "MyInformationHidding 1.0\r\n- - - - - - - - - - - - - - - - - - - - - \r\n\r\nBy\r\n\r\nChuanBin Lai\r\n2011-2015 Batch,\r\nUniversity Of International Relations\r\n\r\nXiaoYang Wu\r\n2011-2015 Batch,\r\nUniversity Of International Relations\r\n\r\nYang Xu\r\n2011-2015 Batch,\r\nUniversity Of International Relations\r\n\r\nZiNan Zhang\r\n2011-2015 Batch,\r\nUniversity Of International Relations\r\n\r\nStegoStick Hides any kind of file in BMP, JPEG, Gif image file, WAV Audio,\r\n AVI/MPEG Video or any Binary File and gives ""Steg"" as Output File containing\r\n hidden file.\r\nTHERE WILL NOT BE ANY PERCEPTIBLE DISTORTION IN THE CARRIER FILE AFTER\r\n HIDING. YOUR FILE WILL SEEM EXACTLY AS THE ORIGINAL, so it's almost\r\n impossible to detect hidden data.\r\nUser friendly GUI provided using C++.\r\nCore technique was implemented in C++. \r\n\r\nHence it can work on all platform.\n"
+    IDS_PAGE3               "StegoStick 1.0\r\n**************\r\n\r\nHow to use StegoStick\r\n- - - - - - - - - - - - - - - - - - -   \r\n\r\nHiding File/Message\r\n- - - - - - - - - - - - - - - - -\r\n\r\n1.Select Hiding tab\r\n2.Select File tab for Hiding file or Message tab for hiding message\r\n3.Browse and select the secret file to hide file or\r\n   type secret message in text pane .\r\n3.Browse and select the carrier file(File into which file to be hidden),\r\n   it can be JPG, GIF, BMP image files or WAV Audio or Binary File of Any Format.\r\n4.Enter Password.\r\n5.Browse the Destination Path of the resultant carrier file\r\n  (Containing hidden file).\r\n6.Click on ""Hide"" button.\r\n7.Wait till the message ""Hiding Successfully Completed"" appears.\r\n8.Now your file is hidden in the carrier file.\r\n\r\nUnhiding File\r\n- - - - - - - - - - - - -  \r\n\r\n1.Select Unhiding tab\r\n2.Browse and select the carrier file(In which message is hidden using StegoStick).\r\n3.Browse the Destintaion Path of the resultant sec"
+    IDS_PAGE4               "The GUN General Public License(GPL)\r\nVersion 3,December 2013\r\n\r\nCopyright (C) 2013 Free Software Foundation, Inc.\r\n12 PoShangCun,BeiJing,China\r\n\r\nEveryone is permitted to copy and distribute verbatim copies\r\nof this license document, but changing it is not allowed.\r\n\r\nPreamble\r\n\r\nThe licenses for most software are designed to take away your freedom to \r\nshare and change it. By contrast, the GNU General Public License is\r\nintended to guarantee your freedom to share and change free software--to\r\n make sure the software is free for all its users.This General Public\r\nLicense applies to most of the Free Software Foundation's software and to\r\nany other program whose authors commit to using it.(Some other Free   \r\nSoftware Foundation software is covered by the GNU Library General Public\r\nLicense instead.) You can apply it to your programs,too.\r\n\r\n"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPPAGE_HFILE DIALOG DISCARDABLE  0, 0, 199, 60
+STYLE WS_CHILD | WS_DISABLED
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Secret File",IDC_STATIC,7,7,185,46
+    EDITTEXT        IDC_EDIT101,18,23,103,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "browse",IDC_BUTTON102,139,22,38,17
+END
+
+IDD_PROPPAGE_HMESSAGE DIALOG DISCARDABLE  0, 0, 181, 46
+STYLE WS_CHILD | WS_DISABLED
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT101,7,7,167,32,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPPAGE_HFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_PROPPAGE_HMESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MyInformationHidding.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
